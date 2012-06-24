@@ -9,6 +9,7 @@ function getOrDefault(slot, defaultValue) {
     return value ? parseFloat(value) : (defaultValue ? defaultValue : 0);
 }
 
+
 function calcDps(useSecondary) {
     var primaryStat = 187;
     var speedBonus = 0;
