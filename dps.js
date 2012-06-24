@@ -58,6 +58,10 @@ function calcDps(useSecondary) {
         $("#secondaryDps").text("dps: " + dps.toFixed(0));
     } else {
         $("#totalDps").text("dps: " + dps.toFixed(0));
+        $("#primary").text("primary: " + primaryStat);
+        $("#attackSpeed").text("atk: " + speed.toFixed(2));
+        $("#critChance").text("crit%: " + critChance);
+        $("#critDmg").text("crit-dmg: " + critDmg);
     }
     //console.log("primary", primaryStat, "\nminDmg", minDmg, "\nmaxDmg", maxDmg, "\ncrit%", critChance, "\ncritDmg", critDmg, "\nspeed: ", speed, "\ndps", dps);
 }
